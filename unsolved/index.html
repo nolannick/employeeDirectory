@@ -6,13 +6,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class='position-relative'>
+
+    <div id='mySidenav' class='sidenav'>
+        <h1>Employee Directory</h1>
+        <ul>
+          <li class='navList' id='navView'>View</li>
+          <li class='navList' id='navAdd'>Add</li>
+          <li class='navList' id='navVerify'>Verify</li>
+          <li class='navList' id='navUpdate'>Update</li>
+          <li class='navList' id='navDelete'>Delete</li>
+        </ul>
+      </div>
+
+  <main>
+
+    <form class='inputFields'>
+      <input id='inputName' type='text' placeholder="Name Here">
+      <input id='inputOffice' type='text' placeholder="Office Number Here">
+      <input id='inputPhone' type='text' placeholder="Phone Number Here">
+      <input id='addButton' type='submit' value='add'>
+      <input id='searchButton' type='submit' value='Search'>
+    </form>
+
+    
+    <div class='row position-relative'>
+      <div class='column'>
+
+    </div>
+  </div>
+
+  </main>
+
   <script src="dom.js"></script>
   <script src="employeeList.js"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>

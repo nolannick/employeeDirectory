@@ -1,3 +1,5 @@
+
+
 const employeeList = [
   {
     name: 'Jan',
@@ -40,3 +42,6 @@ const employeeList = [
     phoneNum: '222-789-5231'
   }
 ];
+
+let employeeListDisplay = employeeList;
+
