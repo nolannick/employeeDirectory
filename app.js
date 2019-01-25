@@ -85,9 +85,9 @@ const searchButtonClick = function () {
         }
     }
     if (exists === true) {
-        $('.column').html(`<h1>Yes, ${$(`#inputName`).val()} exists</h1>`);
+        $('.column').html(`<h2>Yes, ${$(`#inputName`).val()} exists</h2>`);
     } else {
-        $('.column').html(`<h1>No, ${$(`#inputName`).val()} does not exist</h1>`);
+        $('.column').html(`<h2>No, ${$(`#inputName`).val()} does not exist</h2>`);
     }
 }
 
